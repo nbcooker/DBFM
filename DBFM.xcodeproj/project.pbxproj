@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		928725E11B36E2EB00802931 /* ChannelController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 928725E01B36E2EB00802931 /* ChannelController.swift */; };
+		928725E31B36EBD000802931 /* HttpController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 928725E21B36EBD000802931 /* HttpController.swift */; };
 		92C5C5F71B36863000C26B47 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92C5C5F61B36863000C26B47 /* AppDelegate.swift */; };
 		92C5C5F91B36863000C26B47 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92C5C5F81B36863000C26B47 /* ViewController.swift */; };
 		92C5C5FC1B36863000C26B47 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 92C5C5FA1B36863000C26B47 /* Main.storyboard */; };
@@ -26,6 +28,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		928725E01B36E2EB00802931 /* ChannelController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ChannelController.swift; sourceTree = "<group>"; };
+		928725E21B36EBD000802931 /* HttpController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HttpController.swift; sourceTree = "<group>"; };
 		92C5C5F11B36863000C26B47 /* DBFM.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DBFM.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		92C5C5F51B36863000C26B47 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		92C5C5F61B36863000C26B47 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -83,6 +87,8 @@
 				92C5C5FD1B36863000C26B47 /* Images.xcassets */,
 				92C5C5FF1B36863000C26B47 /* LaunchScreen.xib */,
 				92C5C5F41B36863000C26B47 /* Supporting Files */,
+				928725E01B36E2EB00802931 /* ChannelController.swift */,
+				928725E21B36EBD000802931 /* HttpController.swift */,
 			);
 			path = DBFM;
 			sourceTree = "<group>";
@@ -214,6 +220,8 @@
 			files = (
 				92C5C5F91B36863000C26B47 /* ViewController.swift in Sources */,
 				92C5C5F71B36863000C26B47 /* AppDelegate.swift in Sources */,
+				928725E11B36E2EB00802931 /* ChannelController.swift in Sources */,
+				928725E31B36EBD000802931 /* HttpController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -409,6 +417,7 @@
 				92C5C6121B36863000C26B47 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		92C5C6131B36863000C26B47 /* Build configuration list for PBXNativeTarget "DBFMTests" */ = {
 			isa = XCConfigurationList;
@@ -417,6 +426,7 @@
 				92C5C6151B36863000C26B47 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
