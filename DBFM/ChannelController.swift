@@ -1,5 +1,9 @@
 import UIKit
 
+
+import QuartzCore
+
+
 protocol ChannelProtocol{
     //回调函数 将详细页的id传回去
     func onChangeChannel(channel_id:String)
@@ -49,6 +53,15 @@ class ChannelController: UIViewController,UITableViewDataSource,UITableViewDeleg
         let channel:String="channel=\(channel_id)"
         delegate?.onChangeChannel(channel)
         self.dismissViewControllerAnimated(true, completion: nil)
+    }
+    
+    
+    //单元格的特效
+    func tableView(tableView: UITableView, willDisplayCell cell: UITableViewCell, forRowAtIndexPath indexPath: NSIndexPath){
+        cell.layer.transform = CATransform3DMakeScale(0.1, 0.1, 1)
+        UIView.animateWithDuration(0.25, animations: {
+            cell.layer.transform = CATransform3DMakeScale(1, 1, 1)
+        })
     }
     
 }
